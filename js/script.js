@@ -37,7 +37,7 @@ function createComment(form) {
     newComment.innerHTML = `<p class="username">${form.username.value}</p><p class="usercomment">${form.comment.value}</p><p class="date">${commentDate}, ${time}</p>`;
     let delButton = document.createElement('button');
     delButton.classList.add('del-button');
-    delButton.innerHTML = `<img src='../img/delete.svg' width = "20px">`;
+    delButton.innerHTML = `<img src='img/delete.svg' width = "20px">`;
     let likeButton = document.createElement('button');
     likeButton.classList.add('like');
     let likeCounter = document.createElement('span');
