@@ -93,7 +93,7 @@ body {
   letter-spacing: 2px;
 }
 .form__username {
-  width: 300px;
+  max-width: 300px;
   height: 35px;
   margin-bottom: 20px;
   position: relative;
@@ -109,11 +109,13 @@ body {
 }
 .form__comment {
   position: relative;
+  max-width: 100%;
 }
 .form__comment textarea {
   margin-bottom: 20px;
   resize: none;
   height: 100px;
+  max-width: 100%;
 }
 
 .date-input {
@@ -175,12 +177,12 @@ li span {
 
 .form-body {
   background-color: rgb(238, 216, 188);
-  padding: 20px 0;
+  padding: 20px;
   margin-bottom: 40px;
   border-radius: 3px;
   box-shadow: 1px 1px 10px rgba(65, 60, 60, 0.3);
 }
 .form-body__form {
   margin: 0 auto;
-  width: 800px;
+  max-width: 800px;
 }
